@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\61423\.nuget\packages\</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.10.0</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="C:\Users\61423\.nuget\packages\" />
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgSystem_Drawing_Common Condition=" '$(PkgSystem_Drawing_Common)' == '' ">C:\Users\61423\.nuget\packages\system.drawing.common\8.0.7</PkgSystem_Drawing_Common>
+    <PkgFSharp_Core Condition=" '$(PkgFSharp_Core)' == '' ">C:\Users\61423\.nuget\packages\fsharp.core\8.0.300</PkgFSharp_Core>
+    <PkgCoreCompat_System_Drawing Condition=" '$(PkgCoreCompat_System_Drawing)' == '' ">C:\Users\61423\.nuget\packages\corecompat.system.drawing\1.0.0-beta006</PkgCoreCompat_System_Drawing>
+    <PkgAccord Condition=" '$(PkgAccord)' == '' ">C:\Users\61423\.nuget\packages\accord\3.8.2-alpha</PkgAccord>
+    <PkgAccord_Vision Condition=" '$(PkgAccord_Vision)' == '' ">C:\Users\61423\.nuget\packages\accord.vision\3.8.0</PkgAccord_Vision>
+  </PropertyGroup>
+</Project>
